@@ -4762,6 +4762,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"digaris@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "digaris@workspace:."
+  dependencies:
+    "@fortawesome/fontawesome-free": 6.0.0
+    "@popperjs/core": ^2.11.4
+    autoprefixer: ^10.4.2
+    eslint: latest
+    eslint-config-next: 12.1.0
+    eslint-config-react: ^1.1.7
+    next: ^12.1.0
+    postcss: ^8.4.8
+    react: ^17.0.2
+    react-dom: ^17.0.2
+    react-scripts: ^5.0.0
+    tailwindcss: ^3.0.23
+    typescript: ^4.6.2
+  languageName: unknown
+  linkType: soft
+
 "dir-glob@npm:^3.0.1":
   version: 3.0.1
   resolution: "dir-glob@npm:3.0.1"
@@ -6880,26 +6900,6 @@ __metadata:
   checksum: f032df8e02dce8ec565cf2eb605ea939bdccea528dbcf565cdf92bfa2da9110461159d86a537388ef1acef8815a330642d7885b29010e8f7eac967c9993b65ab
   languageName: node
   linkType: hard
-
-"ischain@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "ischain@workspace:."
-  dependencies:
-    "@fortawesome/fontawesome-free": 6.0.0
-    "@popperjs/core": ^2.11.4
-    autoprefixer: ^10.4.2
-    eslint: latest
-    eslint-config-next: 12.1.0
-    eslint-config-react: ^1.1.7
-    next: ^12.1.0
-    postcss: ^8.4.8
-    react: ^17.0.2
-    react-dom: ^17.0.2
-    react-scripts: ^5.0.0
-    tailwindcss: ^3.0.23
-    typescript: ^4.6.2
-  languageName: unknown
-  linkType: soft
 
 "isexe@npm:^2.0.0":
   version: 2.0.0
