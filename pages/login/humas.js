@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 
 // layout for page
 
@@ -15,12 +14,15 @@ export default function Login() {
       <div className="container mx-auto px-4 h-full">
         <div className="flex content-center items-center justify-center h-full">
           <div className="w-full lg:w-4/12 px-4">
+            <h6 className="text-white text-sm mb-6 mx-auto items-center w-full font-bold">
+            <a href="/"><i className="fas fa-chevron-circle-left"></i>  Kembali ke Beranda </a>
+            </h6>
             <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-200 border-0">
               <div className="rounded-t mb-0 px-6 py-6">
               <img
                 alt="..."
                 className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                src="/img/logo/humas.png"
+                src="/img/logo/sp.png"
               />
                 <div className="text-center mb-3 mt-4">
                   <h6 className="text-blueGray-500 text-sm font-bold">
@@ -45,12 +47,14 @@ export default function Login() {
                   </div>
 
                   <div className="text-center mt-6">
+                  <a href="https://google.com">
                     <button
                       className="bg-indigo-600 text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
                       type="button"
                     >
                       Masuk
                     </button>
+                  </a>
                   </div>
                 </form>
               </div>
