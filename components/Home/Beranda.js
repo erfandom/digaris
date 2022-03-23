@@ -1,6 +1,8 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 
+import Footer from "../Footers/Footer";
+
 export default function Beranda() {
   return (
     <>
@@ -28,6 +30,11 @@ export default function Beranda() {
           <div className="container mx-auto px-4 lg:pt-24 lg:pb-42 sm:pb-48 sm:pt-36 xs:pb-32 xs:pt-32">
             <div className="flex flex-wrap text-center justify-center">
               <div className="w-full lg:w-9/12 px-4">
+              <img
+                alt="..."
+                className="max-w-full mx-auto mb-4 w-24"
+                src="/img/logo/digaris.png"
+              />
                 <h2 className="text-4xl font-medium text-black">
                   Selamat Datang di <span className="text-indigo-600">DIGARIS (Digital Arsiparis)</span>
                 </h2>
@@ -46,14 +53,14 @@ export default function Beranda() {
             
             <div className="flex flex-wrap mt-5 justify-center">
               <div className="w-full lg:w-4/12 px-6 text-center">
-                <a href="/login-humas">
-                  <div className="bg-red-700 shadow-lg rounded-lg text-center p-8 mt-8">
+                <a href="/login/humas">
+                  <div className="bg-orange-500 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
                         alt="..."
                         className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
                         src="/img/logo/humas.png"
                       />
-                      <button className="bg-white mt-4 text-red-700 active:bg-indigo-600 text-md font-bold uppercase px-3 py-1 rounded 
+                      <button className="bg-white mt-4 text-orange-500 active:bg-indigo-600 text-md font-bold uppercase px-3 py-1 rounded 
                       outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
                         Humas
                       </button>
@@ -61,7 +68,7 @@ export default function Beranda() {
                 </a>
               </div>
               <div className="w-full lg:w-4/12 px-6 text-center">
-                <a href="/login-humas">
+                <a href="/login-sp2020">
                   <div className="bg-lightBlue-500 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
                         alt="..."
@@ -76,23 +83,24 @@ export default function Beranda() {
                 </a>
               </div>
               <div className="w-full lg:w-4/12 px-6 text-center">
-                <a href="https://www.creative-tim.com/learning-lab/tailwind/angular/alerts/notus?ref=vtw-index"
-                     target="_blank">
-                  <div className="bg-red-700 shadow-lg rounded-lg text-center p-8 mt-8">
+                <a href="/login-keuangan">
+                  <div className="bg-green-500 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
                         alt="..."
                         className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/angular.jpg"
+                        src="/img/logo/keuangan.png"
                       />
-                      <p className="text-lg text-white mt-4 font-semibold">
-                        Angular
-                      </p>
+                      <button className="bg-white mt-4 text-green-500 active:bg-indigo-600 text-md font-bold uppercase px-3 py-1 rounded 
+                      outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
+                        Keuangan
+                      </button>
                   </div>
                 </a>
               </div>
             </div>
           </div>
     </section>
+    <Footer/>
     </>
   );
 }
