@@ -1,5 +1,6 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
+import Link from "next/link";
 
 import Footer from "../Footers/Footer";
 
@@ -53,7 +54,7 @@ export default function Beranda() {
             
             <div className="flex flex-wrap mt-5 justify-center">
               <div className="w-full lg:w-4/12 px-6 text-center">
-                <a href="/login/humas">
+                <Link href="/login/humas">
                   <div className="bg-orange-500 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
                         alt="..."
@@ -65,10 +66,10 @@ export default function Beranda() {
                         Humas
                       </button>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="w-full lg:w-4/12 px-6 text-center">
-                <a href="/login-sp2020">
+                <Link href="/login-sp2020">
                   <div className="bg-lightBlue-500 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
                         alt="..."
@@ -80,10 +81,10 @@ export default function Beranda() {
                         SP2020
                       </button>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="w-full lg:w-4/12 px-6 text-center">
-                <a href="/login-keuangan">
+                <Link href="/login-keuangan">
                   <div className="bg-green-500 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
                         alt="..."
@@ -95,7 +96,7 @@ export default function Beranda() {
                         Keuangan
                       </button>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
