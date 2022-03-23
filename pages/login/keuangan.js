@@ -12,8 +12,8 @@ export default function Login({href}) {
 
   const submitForm = (e) => {
     e.preventDefault()
-    if (password == "humas74") {
-      router.push("https://drive.google.com/drive/folders/1AdzdLrB7mudY-Vg0_RuZb_yX6PHG5iqa?usp=sharing")
+    if (password == "keu74") {
+      router.push("https://drive.google.com/drive/folders/1ktLuhKHSsiUoakwvyOyHjIYSZ2GZbC6_?usp=sharing")
     }
   };
 
@@ -33,7 +33,7 @@ export default function Login({href}) {
               <img
                 alt="..."
                 className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                src="/img/logo/humas.png"
+                src="/img/logo/keuangan.png"
               />
                 <div className="text-center mb-3 mt-4">
                   <h6 className="text-blueGray-500 text-sm font-bold">

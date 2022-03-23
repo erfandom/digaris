@@ -14,7 +14,7 @@ export default class MyApp extends App  {
   <React.Fragment> 
     <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <title>ISCHAIN - Islamic Cryptocurrency & Blockchain Community</title>
+      <title>Digital Arsiparis BPS Provinsi Sulawesi Tenggara</title>
     </Head>
     <Component {...pageProps} />
   </React.Fragment>
