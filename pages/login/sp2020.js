@@ -13,7 +13,7 @@ export default function Login({href}) {
   const submitForm = (e) => {
     e.preventDefault()
     if (password == "dkpmr74") {
-      router.push("https://drive.google.com/drive/folders/16bXOvKF_FyhPqfGzZ2O1Y1cmHkQ2j3rY?usp=sharing")
+      router.push("/sp2020/beranda")
     }
   };
 

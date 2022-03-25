@@ -9,10 +9,10 @@ export default function Navbar(props) {
       <nav className="top-0 fixed z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-white shadow">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-                <Link href="/">
+                <Link href="/sp2020/beranda">
                   <a className="navbar-brand">
                     <img
-                      src= "/img/ischain-logo-i.png" 
+                      src= "/img/logo/sp1.png" 
                       alt= "logo" 
                     />
                   </a>
@@ -34,21 +34,30 @@ export default function Navbar(props) {
           >
             <ul className="flex flex-col lg:flex-row list-none mr-auto">
               <li className="flex items-center">
-                <Link href="/publikasi">
+                <Link href="/dokumentasi">
                 <a
                   className="hover:text-blue-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 >
-                  <i className="hover:text-blue-500 text-blueGray-400 far fa-file-alt text-lg leading-lg xs:ml-0 lg:ml-3 mr-2"></i>
-                  Publikasi
+                  <i className="hover:text-blue-500 text-blueGray-400 far fa-folder text-lg leading-lg xs:ml-0 lg:ml-3 mr-2"></i>
+                  Dokumentasi
                 </a></Link>
               </li>
               <li className="flex items-center">
-                <Link href="/artikel">
+                <Link href="/publisitas">
+                <a
+                  className="hover:text-blue-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                >
+                  <i className="hover:text-blue-500 text-blueGray-400 far fa-newspaper text-lg leading-lg mr-2"></i>
+                  Publisitas
+                </a></Link>
+              </li>
+              <li className="flex items-center">
+                <Link href="/mitigasi">
                 <a 
                   className="hover:text-blue-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 >
                   <i className="hover:text-blue-500 text-blueGray-400 far fa-newspaper text-lg leading-lg mr-2"></i>
-                  Artikel
+                  Mitigasi Risiko
                 </a></Link>
               </li>
             </ul>
@@ -59,37 +68,27 @@ export default function Navbar(props) {
 
               </li>
               <li className="flex items-center">
-                <Link href="/tentang-kami">
+                <Link href="/sp2020/tentang-dkpmr">
                 <a
                   className="hover:text-blue-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 >
-                  <span>Tentang Kami</span>
+                  <span>Tentang DKPMR LF SP-2020</span>
                 </a></Link>
               </li>
 
               <li className="flex items-center">
-                <Link href="/faq">
+                <Link href="/">
                 <a
                   className="hover:text-blue-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 >
-                  <span>FAQ</span>
-                </a></Link>
-              </li>
-
-              <li className="flex items-center">
-                <Link href="/kontak">
-                <a
-                  className="hover:text-blue-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  
-                >
-                  <span>Hubungi Kami</span>
+                  <span>Kembali ke DIGARIS</span>
                 </a></Link>
               </li>
 
               <li className="flex items-center">
                 <a
                   className="hover:text-red-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="https://instagram.com/ischain.id"
+                  href="https://instagram.com/bpsprovsultra"
                   target="_blank" rel="noreferrer"
                 >
                   <i className="hover:text-red-500 text-blueGray-400 fab fa-instagram text-lg leading-lg " />
@@ -100,11 +99,11 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <a
                   className="hover:text-lightBlue-600 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="https://t.me/ischainlounge"
+                  href="https://facebook.com/bpsprovsultra"
                   target="_blank" rel="noreferrer"
                 >
-                  <i className="hover:text-lightBlue-600 text-blueGray-400 fab fa-telegram text-lg leading-lg " />
-                  <span className="lg:hidden inline-block ml-2">Telegram</span>
+                  <i className="hover:text-lightBlue-600 text-blueGray-400 fab fa-facebook text-lg leading-lg " />
+                  <span className="lg:hidden inline-block ml-2">Facebook</span>
                 </a>
               </li>
 
