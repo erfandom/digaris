@@ -145,7 +145,7 @@ export default function Hero() {
                     <div className="text-md mt-4">
                         <span className="font-medium mb-2">Konten Publisitas:</span>
                           <div>
-                            <a href="https://drive.google.com/drive/folders/1UuopNxPX8lg-ncTXteQCwb0RhKU1ErWQ?usp=sharing" target="_blank">
+                            <a href="https://drive.google.com/drive/folders/1Di0I97n6oZCLbgdZn8LRXQ2ZnTBz8fZy?usp=sharing" target="_blank">
                             <button
                             className="w-10/12 mx-auto bg-teal-500 text-white active:bg-teal-400 text-md font-medium px-3 
                             py-1 rounded-full outline-none focus:outline-none mb-1 mt-1 ease-linear transition-all duration-150"> 
@@ -153,7 +153,7 @@ export default function Hero() {
                             </button></a>
                           </div>
                           <div>
-                            <a href="https://drive.google.com/drive/folders/1UuopNxPX8lg-ncTXteQCwb0RhKU1ErWQ?usp=sharing" target="_blank">
+                            <a href="https://drive.google.com/drive/folders/1WRxtMN3QNxI7T3SirxpXBByU770FfEtK?usp=sharing" target="_blank">
                             <button
                             className="w-10/12 mx-auto bg-teal-500 text-white active:bg-teal-400 text-md font-medium px-3 
                             py-1 rounded-full outline-none focus:outline-none mb-1 mt-1 ease-linear transition-all duration-150"> 
