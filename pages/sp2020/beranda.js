@@ -8,7 +8,6 @@ const Beranda = () => {
   return (
     <>
       <HeroSP/>
-      
       <Footer/>
     </>
   );
