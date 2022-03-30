@@ -13,7 +13,7 @@ export default function Login({href}) {
   const submitForm = (e) => {
     e.preventDefault()
     if (password == "humas74") {
-      router.push("https://drive.google.com/drive/folders/1AdzdLrB7mudY-Vg0_RuZb_yX6PHG5iqa?usp=sharing")
+      router.push("/humas/beranda")
     }
   };
 
