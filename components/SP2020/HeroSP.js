@@ -78,7 +78,15 @@ export default function Hero() {
                             <button
                             className="w-10/12 mx-auto bg-indigo-600 text-white active:bg-indigo-500 text-md font-medium px-3 
                             py-1 rounded-full outline-none focus:outline-none mb-1 mt-1 ease-linear transition-all duration-150"> 
-                            <i className="fa fa-camera mr-1"></i> Kegiatan Non Rapat 
+                            <i className="fa fa-file mr-1"></i> Kegiatan Non Rapat 
+                            </button></a>
+                          </div>
+                          <div>
+                            <a href="https://drive.google.com/drive/folders/14kOZTCW7DH3fEzvS-ANhqPcBFKV4qVhh?usp=sharing" target="_blank">
+                            <button
+                            className="w-10/12 mx-auto bg-indigo-600 text-white active:bg-indigo-500 text-md font-medium px-3 
+                            py-1 rounded-full outline-none focus:outline-none mb-1 mt-1 ease-linear transition-all duration-150"> 
+                            <i className="fa fa-camera mr-1"></i> Foto dan Video
                             </button></a>
                           </div><hr className="mt-2"></hr>
                     </div>
