@@ -176,7 +176,7 @@ export default function HeroHumas() {
                             </button></a>
                           </div>
                           <div>
-                            <a href="https://docs.google.com/spreadsheets/d/1lVI_4KYW3fVJ6YlhY_KVhRpE6aDrxG3efZ8TWlhqnFY/edit?usp=sharing" target="_blank">
+                            <a href="https://drive.google.com/drive/folders/1uknbyHLFONEuRP6mNsYAAL7Uv5muRq9X?usp=sharing" target="_blank">
                             <button
                             className="w-10/12 mx-auto bg-teal-500 text-white active:bg-teal-400 text-md font-medium px-3 
                             py-1 rounded-full outline-none focus:outline-none mb-1 mt-1 ease-linear transition-all duration-150"> 
