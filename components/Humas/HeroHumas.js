@@ -185,7 +185,7 @@ export default function HeroHumas() {
                           </div>
                     </div><hr className="mt-2"></hr>
                     <div className="text-md mt-4">
-                        <span className="font-medium mb-2">Feed Media Sosial</span>
+                        <span className="font-medium mb-2">Media Sosial</span>
                           <div>
                             <a href="https://drive.google.com/drive/folders/1L72xEaTHxrj-RoJ1uEW2gwPdwqAVbdh0?usp=sharing" target="_blank">
                             <button
@@ -200,6 +200,14 @@ export default function HeroHumas() {
                             className="w-10/12 mx-auto bg-teal-500 text-white active:bg-teal-400 text-md font-medium px-3 
                             py-1 rounded-full outline-none focus:outline-none mb-1 mt-1 ease-linear transition-all duration-150"> 
                             <i className="fa fa-gear mr-1"></i> Template Postingan
+                            </button></a>
+                          </div>
+                          <div>
+                            <a href="https://drive.google.com/drive/folders/1grsnQxFcjjjWIgw-thVnKvUS9VASj9pM?usp=sharing" target="_blank">
+                            <button
+                            className="w-10/12 mx-auto bg-teal-500 text-white active:bg-teal-400 text-md font-medium px-3 
+                            py-1 rounded-full outline-none focus:outline-none mb-1 mt-1 ease-linear transition-all duration-150"> 
+                            <i className="fa fa-bullhorn mr-1"></i> Adm. Marketing Medsos
                             </button></a>
                           </div>
                     </div>
