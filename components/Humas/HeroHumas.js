@@ -167,6 +167,22 @@ export default function HeroHumas() {
                             <i className="fa fa-bullhorn mr-1"></i> Rencana Kerja
                             </button></a>
                           </div>
+                          <div>
+                            <a href="https://docs.google.com/document/d/1gIVrHc7MaeILt19ab9iK6ws6L7v94CBtF9NFOASEWsY/edit?usp=sharing" target="_blank">
+                            <button
+                            className="w-10/12 mx-auto bg-teal-500 text-white active:bg-teal-400 text-md font-medium px-3 
+                            py-1 rounded-full outline-none focus:outline-none mb-1 mt-1 ease-linear transition-all duration-150"> 
+                            <i className="fa fa-search mr-1"></i> Identifikasi Kegiatan Humas
+                            </button></a>
+                          </div>
+                          <div>
+                            <a href="https://docs.google.com/spreadsheets/d/1lVI_4KYW3fVJ6YlhY_KVhRpE6aDrxG3efZ8TWlhqnFY/edit?usp=sharing" target="_blank">
+                            <button
+                            className="w-10/12 mx-auto bg-teal-500 text-white active:bg-teal-400 text-md font-medium px-3 
+                            py-1 rounded-full outline-none focus:outline-none mb-1 mt-1 ease-linear transition-all duration-150"> 
+                            <i className="fa fa-user mr-1"></i> Rapat Humas
+                            </button></a>
+                          </div>
                     </div><hr className="mt-2"></hr>
                     <div className="text-md mt-4">
                         <span className="font-medium mb-2">Feed Media Sosial</span>
@@ -252,7 +268,7 @@ export default function HeroHumas() {
                             <button
                             className="w-10/12 mx-auto bg-orange-500 text-white active:bg-orange-400 text-md font-medium px-3 
                             py-1 rounded-full outline-none focus:outline-none mb-1 mt-1 ease-linear transition-all duration-150"> 
-                            <i className="fas fa-youtube mr-1"></i> Thumbnail Youtube
+                            <i className="fab fa-youtube mr-1"></i> Thumbnail Youtube
                             </button></a>
                           </div>
                           <div>
