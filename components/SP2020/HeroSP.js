@@ -142,7 +142,7 @@ export default function Hero() {
                     <div className="text-md mt-4">
                         <span className="font-medium mb-2">Timeline:</span>
                           <div>
-                            <a href="#" target="_blank">
+                            <a href="https://docs.google.com/spreadsheets/d/1c8vddGkNDLbYLp0cQFyRvMmlaSxMnNgZ5u-PbpxeQUg/edit?usp=sharing" target="_blank">
                             <button
                             className="w-10/12 mx-auto bg-teal-500 text-white active:bg-teal-400 text-md font-medium px-3 
                             py-1 rounded-full outline-none focus:outline-none mb-1 mt-1 ease-linear transition-all duration-150"> 
