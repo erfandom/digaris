@@ -199,7 +199,7 @@ export default function Hero() {
                     <div className="text-md mt-4">
                         <span className="font-medium mb-2">Mitigasi Risiko:</span>
                           <div>
-                            <a href="https://drive.google.com/drive/folders/1UuopNxPX8lg-ncTXteQCwb0RhKU1ErWQ?usp=sharing" target="_blank">
+                            <a href="https://drive.google.com/drive/folders/1MNTpeHsa9yzD2SWLHLjixC8lWY4pBehq?usp=sharing" target="_blank">
                             <button
                             className="w-10/12 mx-auto bg-orange-500 text-white active:bg-orange-400 text-md font-medium px-3 
                             py-1 rounded-full outline-none focus:outline-none mb-1 mt-1 ease-linear transition-all duration-150"> 
@@ -207,7 +207,7 @@ export default function Hero() {
                             </button></a>
                           </div>
                           <div>
-                            <a href="https://drive.google.com/drive/folders/1UuopNxPX8lg-ncTXteQCwb0RhKU1ErWQ?usp=sharing" target="_blank">
+                            <a href="https://drive.google.com/drive/folders/1ZdxaEC9wPyISM3AcFoOoQmspIYb4Vrak?usp=sharing" target="_blank">
                             <button
                             className="w-10/12 mx-auto bg-orange-500 text-white active:bg-orange-400 text-md font-medium px-3 
                             py-1 rounded-full outline-none focus:outline-none mb-1 mt-1 ease-linear transition-all duration-150"> 
