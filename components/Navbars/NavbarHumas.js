@@ -72,13 +72,12 @@ export default function NavbarHumas(props) {
               </li>
 
               <li className="flex items-center">
-                <Link href="/">
-                <a
+                <a href="https://www.bpsprovsultra.page/digaris/"
                   className="hover:text-orange-500 text-black px-3 py-4 lg:py-2 flex items-center text-sm  font-bold"
                 >
                   <i className="hover:text-orange-500 text-black fas fa-arrow-circle-left text-lg leading-lg xs:ml-0 lg:ml-3 mr-2"></i>
                   <span>Kembali ke DIGARIS</span>
-                </a></Link>
+                </a>
               </li>
 
              {/* <li className="flex items-center">
