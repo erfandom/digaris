@@ -77,12 +77,11 @@ export default function Navbar(props) {
               </li>
 
               <li className="flex items-center">
-                <Link href="/">
-                <a
+                <a href="https://www.bpsprovsultra.page/digaris/"
                   className="hover:text-blue-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 >
                   <span>Kembali ke DIGARIS</span>
-                </a></Link>
+                </a>
               </li>
 
               <li className="flex items-center">
